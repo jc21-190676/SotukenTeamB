@@ -1,0 +1,84 @@
+container{
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+h1{
+    font-size: 2.85rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.card{
+    padding: 2rem;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+body{
+        
+   background-size: cover;              
+   background-attachment: fixed;       
+   background-position: center center;   
+}
+
+.right{
+
+    text-align : right;
+}
+
+.left{
+
+    text-align: left;
+}
+
+.center{
+
+    text-align : center;
+}
+
+.btn--blue,
+a.btn--blue {
+    width: 50%;
+    min-width:150px ;
+    max-width: 250px;
+    padding: 10px; 
+    background: white;
+    border-radius: 8px;
+    border-color: blue;
+    box-shadow: none;
+    display:inline-block;
+    margin-right: 50px;
+    color:#000;
+}
+
+.btn--red,
+a.btn--red {
+    width: 100%;
+    min-width:100px ;
+    max-width: 250px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: red;
+    box-shadow: none;
+    display:inline-block;
+    margin-right: 50px; 
+    color:#000;   
+}
+
+.btn--white,
+a.btn--white {
+  color:#000;
+  background:#fff;
+  border: 1px solid #000;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+}

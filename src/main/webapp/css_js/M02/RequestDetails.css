@@ -1,0 +1,81 @@
+container{
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+h1{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+.card{
+    padding: 2rem;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+
+
+.check{ 
+	width: 100%;
+    min-width:75px;
+    max-width: 125px;
+    height: 50%;
+    min-height: 25px;
+    max-height: 50px;
+    padding: 7px;
+    margin-right: 12px;  
+    margin-top: 0px;
+    background: white;
+    border-radius: 8px;
+    border-color: blue;
+    box-shadow: none;
+}
+
+.top {
+    width: 100%;
+    min-width:75px;
+    max-width: 125px;
+    height: 50%;
+    min-height: 25px;
+    max-height: 50px;
+    padding: 7px;
+    margin-bottom: 0px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: red;
+    box-shadow: none;
+}
+
+.button-name1{
+    padding-bottom: 0px;
+}
+
+.button-name2{
+    padding-top: 0px;
+}
+
+body{
+   background-size: cover;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+   background-position: center center;   /* 縦横中央 */
+}
+.right{
+
+    text-align : right;
+}
+
+.left{
+
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+
+.price{
+    display: flex;
+  justify-content: right;
+}

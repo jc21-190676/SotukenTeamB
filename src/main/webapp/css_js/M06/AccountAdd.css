@@ -1,0 +1,68 @@
+container{
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+h1{
+    font-size: 2.85rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.card{
+    padding: 2rem;
+}
+
+p{
+    font-size: 1.1rem;
+}
+body{
+        
+   /* background-imageSurl("../HTML/unchi.jpg"); 画像 */
+   background-size: cover;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+   background-position: center center;   /* 縦横中央 */
+}
+
+.center{
+    text-align : center;
+}
+
+.btn--blue,
+a.btn--blue {
+    width: 50%;
+    min-width:150px ;
+    max-width: 250px;
+    padding: 10px; 
+    background: white;
+    border-radius: 8px;
+    border-color: blue;
+    box-shadow: none;
+    display:inline-block;
+    margin-right: 50px;
+    color:#000;
+}
+
+.btn--white,
+a.btn--white {
+  color:#000;
+  background:#fff;
+  border: 1px solid #000;
+
+}
+.big{
+    vertical-align: middle;
+    text-align: center;
+    transform: scale(1.5);
+}
+.midashi{
+width: 200px;
+
+}
+.big2{
+
+    vertical-align: middle;
+    transform: scale(1.5);
+}
